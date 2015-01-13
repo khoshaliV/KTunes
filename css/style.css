@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+  background: #2c3e50;
+}
+
+#wrap {
+  margin: 0 auto 30px;
+}
+
+#regbar {
+  height: 67px;
+  background: #34495e;
+}
+
+#navthing {
+  margin-left: 50px;
+}
+
+h2 {
+  padding: 20px;
+  color: #ecf0f1;
+}
+
+fieldset {
+  border: none;
+}
+
+.login {
+  position: relative;
+  width: 350px;
+  display: none;
+}
+
+.register {
+  position: relative;
+  width: 350px;
+  display: none;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid #ECF0F1;
+  left: 10%;
+  position: absolute;
+  top: -10px;
+}
+
+.formholder {
+  background: #ecf0f1;
+  width: 350px;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+.formholder input[type="email"], .formholder input[type="password"] {
+  padding: 7px 5px;
+  margin: 10px 0;
+  width: 96%;
+  display: block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.formholder input[type="email"]:focus, .formholder input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+.formholder input[type="submit"] {
+  background: #1abc9c;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.formholder input[type="submit"]:hover {
+  background: #1bc6a4;
+}
+
+.randompad {
+  padding: 10px;
+}
+
+
+
+
+
+.arrow-up2 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid #ECF0F1;
+  left: 10%;
+  position: absolute;
+  top: -10px;
+}
+
+.formholder2 {
+  background: #ecf0f1;
+  width: 350px;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+.formholder2 input[type="email"], .formholder input[type="password"] {
+  padding: 7px 5px;
+  margin: 10px 0;
+  width: 96%;
+  display: block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.formholder2 input[type="email"]:focus, .formholder input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+.formholder2 input[type="submit"] {
+  background: #1abc9c;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.formholder2 input[type="submit"]:hover {
+  background: #1bc6a4;
+}
+
+.randompad2 {
+  padding: 10px;
+}
+
+.green {
+  color: #1abc9c;
+}
+
+a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+a:hover {
+  color: #1abc9c;
+}
+
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
